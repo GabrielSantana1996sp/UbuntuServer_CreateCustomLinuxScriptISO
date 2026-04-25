@@ -21,10 +21,10 @@ golang-go nodejs npm rustc cargo git make cmake autoconf automake gdb
 
 # Segurança e Auditoria (Sec)
 sudo apt install -y apparmor nftables fail2ban clamav clamav-daemon \
-gnupg auditd lynis debsums logcheck fail2ban crowdsec ufw
+gnupg auditd lynis debsums logcheck fail2ban crowdsec
 
 # Infra e Containers (Ops)
-sudo apt install -y podman ansible docker.io systemd-container
+sudo apt install -y podman ansible systemd-container
 
 #Ativar Interface Gráfica
 sudo systemctl set-default graphical.target
